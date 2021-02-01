@@ -287,10 +287,11 @@ def big_shoe_rebounds
           largest_shoe_size = player[:shoe]
         elsif largest_shoe_size < player[:shoe]
           largest_shoe_size = player[:shoe]
+          rebounds = player[:rebounds]
         end 
     end
-    binding.pry 
-  end   
+  end  
+  rebounds 
 end   
 
 # * Build a method, `big_shoe_rebounds`, that will return the number of rebounds associated with the player that has the largest shoe size.
