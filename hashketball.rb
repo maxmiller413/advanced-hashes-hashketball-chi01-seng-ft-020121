@@ -282,7 +282,7 @@ def big_shoe_rebounds
     team[:players].each do |player|
       
       binding.pry 
-      player[:shoe].each do |shoe|
+      
         
       end 
     end 
