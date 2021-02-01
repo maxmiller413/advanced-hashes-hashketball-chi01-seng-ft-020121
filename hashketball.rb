@@ -280,7 +280,7 @@ def big_shoe_rebounds
   
   game_hash.each do |location, team|
     team[:players].each do |player|
-      
+      player[:shoe].max
       binding.pry 
       
         
